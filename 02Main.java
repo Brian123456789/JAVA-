@@ -1,3 +1,5 @@
+//Adding two varables using float
+
 package pkg02add;
 
 public class Main {
