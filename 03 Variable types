@@ -1,0 +1,19 @@
+Variables are basically a container in which we put data. There are different data types.
+
+Some are:
+
+int - 4 bytes
+float - 4 bytes
+double - 8 bytes
+char - 2 bytes
+short int - 2 bytes
+long int - 8 bytes
+byte - 1 byte
+
+Sometimes it matters which one of these you use if you want to save on memory. Often it will not matter, in such cases
+people often just use int for numbers and string for letters. Long int may be used for very large numbers where accuracy
+is needed. 
+
+All numbers with decimals are by default defined as double in java. If needed, you can force decimal numbers to float values.
+
+Char is often used to hold a value of one letter.
