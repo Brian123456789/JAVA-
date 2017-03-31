@@ -28,9 +28,10 @@ class FirstCode
 
 			System.out.print ("Hello");
 
-//System denotes an in-built method. This means it is part of java and we do not have to code a special method. 
-//We just use the System keyword to access our methods and its objects.
-//.out is an out object, and the print method belongs to this object.
+//System is a class that contains in-built methods. This means it is part of java and we do not have to code a special method. 
+//We just use the System class keyword to access our out object and the print method.
+//To sum it up, the print method belongs to the out object, and the out object belongs to the System class. The convention is
+//Class.object.method.
 
 		}
 	}
