@@ -18,12 +18,13 @@ class FirstCode
 
 	{
 		public static void main (String a[ ])
-
-//use static because it means the following pertains to a class. (String a[ ]) is added because java 
-//will use an array to accomplish the work you are asking it to do in your program.
-//Java runs on JVM, Java Virtual Machine. It will ask for a main method, which is main. Since our
-//program returns no value, we add void to the line.
-
+//Public means that anyone can use it from anywhere. Private means only you can use the following
+//from within your program.
+//use static because it means the following pertains to a class. Sometimes you will use "non-static", this will be because
+//what you will be doing will be related to an object, not to a class.
+//add void because what you are doing does not return a value.			
+//(String a[ ]) is added because java will use an array to accomplish the work you are asking it to do in your program.
+//Java runs on JVM, Java Virtual Machine. It will ask for a main method, which is main. 
 		{
 
 			System.out.print ("Hello");
