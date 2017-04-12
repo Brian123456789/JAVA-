@@ -1,0 +1,44 @@
+package pkg02char;
+
+  class Main 
+  {
+
+   public static void main(String[] args)
+            
+    {
+    char c = 'A';//declare a variable A as char
+    System.out.println (c);
+    }
+    
+  }
+
+  
+//Here is how to make a char variable and print it. May seem to simple but sometimes just because, you will need it.
+
+
+//ASCII
+
+/*Ascii is an integer representation of any character on your keyboard. to covert a character to int:
+
+
+package pkg02char;
+
+  class Main 
+  {
+
+   public static void main(String[] args)
+            
+    {
+    System.out.println ((int) c) // this will give you the ascii value (integer representation) of that character, which is 65.
+    }
+    
+    {
+    System.out.println ((char) 65) // this will give you the character that is represented by the ascii value.
+    }
+    
+  }
+
+
+
+
+
